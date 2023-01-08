@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+section{
+    height: 100vh;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.firstpage{
+    background: url('/images/tesla3.jpg') no-repeat;
+   background-size: cover;
+    /* width: 100vw;
+    height: 100vh; */
+}
+/* section1 */
+/* header */
+.header-firstpage{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 3em;
+        
+}
+
+.header-firstpage>img{
+    width: 16vw;
+    height: 10vh;
+    font-size: x-large;
+}
+.header-firstpage>ul{
+    list-style-type: none;
+    display: inline-flex;
+    gap: 2em;
+    font-weight: 500;
+}
+/* main First page */
+.main-firstpage{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+   padding-top: 4em;
+   
+}
+.main-firstpage>h1,.main-thirdpage>h1{
+    color: white;
+    font-size: 40px;
+}
+.main-firstpage>a{
+text-decoration: underline;
+font-size: 14px;
+}
+/* Footer First page */
+.footer-firstpage{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20em;
+    padding-right: 20em;
+    padding-top: 4em;
+    align-items: center;
+}
+.speeds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    
+}
+.speeds>h2{
+    font-size: 28px;
+}
+.speeds>img{
+    font-size: 14px;
+}
+.footer-firstpage>div>h2{
+    font-weight: 500;
+    color: white;
+    font-size: 28px;
+}
+.footer-firstpage>div>p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.btn{
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    transition: background-color 0.3s, border 0.3s;
+}
+.btn:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: black;
+  }
+  
+  .btn:active {
+    background-color: #333;
+    border-color: #333;
+  }
+  .footer2-firstpage{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+
+  }
+  
+  .footer2-firstpage>svg{
+    height: 16px;
+    width: 16px;
+    fill: white;
+  }
+
+  /* Second Page */
+  .secondpage{
+    /* width: 100vw;
+    height: 100vh; */
+  }
+  .header-secondpage{
+    width: 100vw;
+    height: 5vh;
+  }
+  /* Main Second Page */
+  .main-secondpage{
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .column-secondpage{
+    padding-bottom:15em ;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6em;
+    
+    
+  }
+  .column-secondpage>h3{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #171a20;
+   padding-top: 3em;
+  }
+  .column-secondpage>h1{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    color: #171a20;
+    font-weight: bold;
+    padding-bottom: 1em;
+
+  }
+  .column-secondpage>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height:20px;
+    color: #393c41;
+  }
+  .a-ref{
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:20px;
+    color: #393c41;
+  }
+  .column-secondpage>h2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height:20px;
+    color: #171c20;
+    font-weight: bold;
+    padding-top: 2em;
+  }
+
+
+/* Footer SecondPage */
+  .footer-secondpage{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5em;
+    gap: 1em;
+  }
+  .footer-secondpage>div>h4{
+   
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .footer-secondpage>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  .footer-secondpage>div>img{
+    border: 2px solid black;
+    border-radius: 50%;
+    
+  }
+  .footer-secondpage>div>img:hover{
+   background: #333;
+   color: grey;
+  }
+  .btn1{
+    color: black;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    height: 45px;
+    transition: background-color 0.3s, border 0.3s;
+}
+.btn1:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+  }
+  
+  .btn1:active {
+    background-color: #333;
+    border-color: #333;
+  }
+
+  /* Third Page */
+  .thirdpage{
+    /* height: 100vh;
+    width: 100vw; */
+  }
+  .main-thirdpage{
+   width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    
+    
+    
+  }
+  .img-section3{
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background: no-repeat;
+    position: absolute;
+    z-index: -1;
+  /* background-color: blue; */
+  }
+  .footer-img{
+   position: relative;
+   height: 70vh;
+    display: flex;
+   justify-items: center;
+   align-items: flex-end;
+   justify-content: center;
+    gap: 5rem;
+   padding-bottom: 4rem;
+  }
+
+  .footer-img>div>h2{
+    font-weight: 500;
+    color: white;
+    font-size: 28px;
+}
+.footer-img>div>p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.footer-img>div{
+    /* width: 33%; */
+    height: 20%;
+    text-align: center;
+}
+/* Footer ThirdPAge */
+  .footer-thirdpage{
+   width: 100vw;
+   height: 30vh; 
+   display: flex;
+   justify-items: center;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 2;
+
+  }
+  .row-thirdpage{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+
+  }
+  .row-thirdpage>img{
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  .row-thirdpage>img:hover{
+   background: #333;
+   color: white;
+  }
+  .p-thirdpage{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #393c41;
+  }
+  .a-ref{
+    text-decoration: underline;
+    font-size: 14px;
+    color: #171a20;
+  }
+
+  
+  /* Chat */
+  .chat {
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    border: none;
+    box-shadow: 0 0 5px #191919;
+    z-index: 4;
+    cursor: pointer;
+    border: none;
+}
+.chat img {
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+
+
+/* Side Nav */
+nav.side-nav {
+  position: fixed;
+  left: 13px;
+  width: 24px;
+  top:0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 4;
+}
+nav.side-nav a{
+  margin-bottom: 5px;
+  display: block;
+  cursor: pointer;
+  width: 10px;
+  display: flex;
+  justify-content: center;
+}
+nav.side-nav a div {
+  border: grey solid 1px;
+  background-color: white;
+  width: 3px;
+  height: 24px;
+}
+nav.side-nav a:hover::after {
+  content: attr(data-name);
+  position: absolute;
+  white-space: nowrap;
+  left: 15px;
+  color: #fff;
+  
+}
